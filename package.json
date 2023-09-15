@@ -1,0 +1,42 @@
+{
+  "name": "backgrupo1",
+  "version": "1.0.0",
+  "description": "Backend del proyecto de canchas",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "babel-node src/index.js",
+    "dev": "nodemon --exec babel-node src/index.js"
+  },
+  "keywords": [
+    "request",
+    "response",
+    "GET",
+    "POST",
+    "PUT",
+    "PATCH",
+    "DELETE"
+  ],
+  "author": "Grupo 1 (46i) - RollingCode",
+  "license": "ISC",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "bcryptjs": "^2.4.3",
+    "cloudinary": "^1.40.0",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "date-fns": "^2.30.0",
+    "date-fns-tz": "^2.0.0",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-fileupload": "^1.4.0",
+    "express-validator": "^7.0.1",
+    "fs-extra": "^11.1.1",
+    "jsonwebtoken": "^9.0.1",
+    "mongoose": "^7.3.3",
+    "morgan": "^1.10.0",
+    "node-cron": "^3.0.2",
+    "nodemon": "^3.0.1"
+  }
+}
